@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  left: 50%;
+  top: 37%;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  color: brown;
+  font-size: 100 px;
+}
+#p5-canvas {
+  position: absolute;
+  left: calc(50% - 200px); /* half of canvas width */
+  top: calc(50% - 150px);  /* half of canvas height */
+}
